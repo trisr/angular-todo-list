@@ -15,6 +15,7 @@ export class DashboardComponent implements OnInit {
   addTaskValue : string = '';
   editTaskValue : string = '';
 
+  // this is the DI example
   constructor(private crudService : CrudService) { }
 
   ngOnInit(): void {
